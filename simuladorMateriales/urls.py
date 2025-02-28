@@ -19,5 +19,5 @@ from django.urls import path
 from api.views import getData
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('material/', getData, name='simulacion_material'),
+    path('material/', getData, name='material'),
 ]
